@@ -1,7 +1,6 @@
 *,
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
 }
 
 body {
@@ -31,7 +30,6 @@ h1 {
 
 .gender {
     margin: 10px;
-
 }
 
 input[type=radio] {
@@ -42,12 +40,9 @@ input[type=radio] {
 
 input[type=number] {
     border: 0px;
-
-
 }
 
 .a-gender {
-    
     font-size: 20px;
 }
 
@@ -60,21 +55,18 @@ input[type=number] {
 .button-input {
     border: none;
     border-radius: 5px;
-
 }
 
 .b-input {
     display: flex;
     justify-content: center;
     gap: 25px;
-    
 }
 
 .b-input :hover {
     background-color: #00ADB5;
     transition: .4s ease-in-out;
     transition-delay: .2s;
-
 }
 
 .button1 {
@@ -119,5 +111,4 @@ input[type=number] {
     padding-bottom: 10px;
     text-align: center;
     font-size: 23px;
-    
 }
