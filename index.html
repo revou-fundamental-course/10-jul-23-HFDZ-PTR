@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>kalkulator BMI</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div class="bmi-kalkulator">
+        <h1>BMI KALKULATOR</h1>
+        <div class="a-form">
+            <div class="gender">
+            <h3>Jenis Kelamin :</h3>
+                <div class="a-gender">
+                    <input type="radio" id="laki-laki" value="laki-laki" name="gender" checked>
+                    <label class="laki-laki" for="laki-laki">laki-laki</label>
+                    <input type="radio" id="perempuan" value="perempuan" name="gender">
+                    <label class="perempuan" for="perempuan">perempuan</label>
+                </div>
+            </div>
+            <div class="form-input">
+                 <h3 for="weight">Berat Badan (Kg) :</h3>
+                 <input class="button-input" id="weight" type="number" required>
+                 <h3 for="height">Tinggi Badan (cm) :</h3>
+                 <input class="button-input" id="height" type="number" required><br>
+                <div class="b-input">
+                    <button class="button1" id="submit" onclick="calculatebmi()" disabled>Hitung BMI</button>
+                    <button class="button" onclick="reload()">Reset</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="output">
+            <h4 id="heading"></h4>
+            <h4 id="bmi-output"></h4>
+            <p id="message"></p>
+         </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
