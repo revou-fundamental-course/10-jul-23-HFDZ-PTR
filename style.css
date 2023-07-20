@@ -1,0 +1,123 @@
+*,
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+body {
+    background-color: #222831;
+    color: white;
+}
+
+.bmi-kalkulator {
+    flex-direction: column;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.a-form {
+    background-color: #176B87;
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.gender {
+    margin: 10px;
+
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 1.5em;
+}
+
+input[type=number] {
+    border: 0px;
+
+
+}
+
+.a-gender {
+    
+    font-size: 20px;
+}
+
+.form-input {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-input {
+    border: none;
+    border-radius: 5px;
+
+}
+
+.b-input {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.b-input :hover {
+    background-color: #00ADB5;
+    transition: .4s ease-in-out;
+    transition-delay: .2s;
+
+}
+
+.button1 {
+    background-color: #64a49e;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #0d7d72;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-enable {
+    background-color: #0d7d72;
+}
+
+.output {
+    background-color: #176B87;
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 23px;
+    
+}
